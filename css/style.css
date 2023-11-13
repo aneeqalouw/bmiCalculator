@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+/* .container {
+    display: block;
+} */
+/* .inputs {
+    display: flex;
+} */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main :is(form) {
+    width: 30rem;
+    background-color: coral;
+    border-radius: 5px;
+    border: black solid 10px;
+}
